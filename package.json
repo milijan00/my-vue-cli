@@ -1,0 +1,17 @@
+{
+  "name": "my-vue-cli",
+  "version": "1.0.0",
+  "description": "My own cli for generating vue components and plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin" : {
+    "mvc" : "./src/index.js"
+  },
+  "author": "Aleksandar Milijanovic",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
